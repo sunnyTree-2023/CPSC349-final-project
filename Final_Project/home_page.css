@@ -1,0 +1,325 @@
+/* General Styles */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+/* Header Styles */
+
+header {
+  background-color: lightgrey;
+  font-family: "Climate Crisis", cursive;
+  font-size: 1.5em;
+  padding: 0.5em 2em;
+  letter-spacing: 2px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.75em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 0.5em;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+
+main {
+  background-color: darkgray;
+  padding-bottom: 3em;
+}
+
+.header-img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-height: 50em;
+  overflow: hidden;
+}
+
+.home-img {
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+}
+
+.img-text {
+  position: absolute;
+  color: white;
+  font-family: "Climate Crisis", sans-serif;
+  font-size: 6em;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  font-size: 6em;
+}
+
+.location-section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 2em;
+  border-radius: 1em;
+  text-align: center;
+  margin: auto;
+  max-width: 30em;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.location-section-descrip {
+  background-color: lightgray;
+  margin: 2em;
+  padding: 1.5em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5em;
+}
+
+.location-section h3 {
+  font-size: 2em;
+  font-weight: 500;
+  color: darkblue;
+  padding-bottom: 1em;
+  font-weight: 700;
+
+}
+
+.location-section li {
+  padding-bottom: 3em;
+}
+
+.location-section a {
+  color: black;
+  padding: 0.5em 1em;
+  border: 2px solid black;
+  border-radius: 0.5em;
+}
+
+.location-section a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* button style */
+
+button {
+  cursor: pointer;
+  /* background-color: green; */
+  background: rgb(188, 203, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(188, 203, 217, 1) 0%,
+    rgba(90, 153, 215, 1) 50%,
+    rgba(79, 129, 179, 1) 68%,
+    rgba(158, 135, 130, 1) 100%
+  );
+  color: white;
+  border-radius: 30em;
+  height: 32px;
+  width: 100px;
+  border-color: rgba(231, 222, 255, 1);
+  /* font-weight: 5px; */
+  font-weight: bold;
+}
+
+
+
+footer {
+  height: 190px;
+  text-align: right;
+  padding: 0 120px;
+  background-color: white;
+}
+
+.contactUsimg{
+  height: 300px;
+  width: 1050px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: block;
+  margin: auto;
+  padding-top: 18px ;
+}
+
+h3 {
+  font-size: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.2em;
+  /* background-color: darkgray; */
+}
+
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+form {
+  width: 50%;
+}
